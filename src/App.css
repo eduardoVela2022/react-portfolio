@@ -1,0 +1,33 @@
+/* Header Container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2rem;
+  background-color: var(--website-header-and-footer-background-color);
+}
+
+.header-container h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* Navigation Container */
+.navigation-container {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* Footer Container */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 2.5rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--website-header-and-footer-background-color);
+}

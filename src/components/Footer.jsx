@@ -1,22 +1,9 @@
-import { createRef, useRef } from "react";
-
 // The footer component
 function Footer() {
   return (
-    <div>
-      <p>
-        My GitHub:{" "}
-        <a href={"https://github.com/eduardoVela2022"}>
-          https://github.com/eduardoVela2022
-        </a>
-      </p>
-      <p>
-        My LinkedIn:
-        <a href={"https://www.linkedin.com/in/react-wizard/"}>
-          https://www.linkedin.com/in/react-wizard/
-        </a>
-        /
-      </p>
+    <div className="footer-container">
+      <a href={"https://github.com/eduardoVela2022"}>GitHub</a>
+      <a href={"https://www.linkedin.com/in/react-wizard/"}>LinkedIn</a>
     </div>
   );
 }
