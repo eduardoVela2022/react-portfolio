@@ -2,7 +2,11 @@
 
 // Page title component
 function PageTitle({ title }) {
-  return <h2>{title}</h2>;
+  return (
+    <div className="page-title">
+      <h2>{title}</h2>
+    </div>
+  );
 }
 
 export default PageTitle;

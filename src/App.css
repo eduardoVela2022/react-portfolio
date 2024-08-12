@@ -20,6 +20,13 @@
   font-weight: 500;
 }
 
+/* Main Container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+}
+
 /* Footer Container */
 .footer-container {
   display: flex;
@@ -30,4 +37,29 @@
   font-size: 1.125rem;
   font-weight: 500;
   background-color: var(--website-header-and-footer-background-color);
+}
+
+/* Page Title */
+.page-title {
+  font-size: 2.75rem;
+}
+
+/* About Page Container */
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 3rem;
+  width: 75dvw;
+}
+
+.about-page-container img {
+  max-width: 16rem;
+  border-radius: 25px;
+}
+
+.about-page-container p {
+  text-align: justify;
+  line-height: 1.5;
 }

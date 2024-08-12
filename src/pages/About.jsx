@@ -4,7 +4,7 @@ import ProfilePicture from "../assets/profilePicture.jpeg";
 // The about page
 function About() {
   return (
-    <div>
+    <div className="about-page-container">
       <PageTitle title="About" />
 
       <img
