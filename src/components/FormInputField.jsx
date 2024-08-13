@@ -3,7 +3,7 @@
 // Form input field component
 function FormInputField({ label, type }) {
   return (
-    <div>
+    <div className="input-field">
       <label>{label}</label>
       <input type={type} />
     </div>

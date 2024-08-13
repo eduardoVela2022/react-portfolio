@@ -3,6 +3,11 @@
   --website-background-color: #fafafa;
   --website-text-color: #0a0a0a;
   --website-header-and-footer-background-color: #a7f3d0;
+  --sky-400: #38bdf8;
+  --sky-500: #0ea5e9;
+  --emerald-500: #10b981;
+  --emerald-400: #34d399;
+  --emerald-300: #6ee7b7;
 }
 
 /* Margin and padding is removed for all elements, and border box dox sizing is applied to them */
