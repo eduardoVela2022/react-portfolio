@@ -4,7 +4,7 @@ import PageTitle from "../components/PageTitle";
 // The contact page
 function Contact() {
   return (
-    <div>
+    <div className="content-container">
       <PageTitle title="Contact" />
 
       <form>
@@ -12,7 +12,9 @@ function Contact() {
         <FormInputField label="Email address:" type="email" />
         <FormInputField label="Message:" type="text" />
 
-        <button type="submit">Submit</button>
+        <div className="submit-button-container">
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   );

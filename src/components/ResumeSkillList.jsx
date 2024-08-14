@@ -4,7 +4,7 @@ import ResumeSkillListItem from "./ResumeSkillListItem";
 // The resume skill list component
 function ResumeSkillList({ title, skills }) {
   return (
-    <div>
+    <div className="resume-skill-list">
       <h3>{title}</h3>
 
       <ul>

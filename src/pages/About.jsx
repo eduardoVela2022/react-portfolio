@@ -4,15 +4,16 @@ import ProfilePicture from "../assets/profilePicture.jpeg";
 // The about page
 function About() {
   return (
-    <div>
+    <div className="content-container">
       <PageTitle title="About" />
 
       <img
+        className="about-page-profile-image"
         src={ProfilePicture}
         alt="A profile picture of Eduardo Sebastian Vela Alanis"
       />
 
-      <p>
+      <p className="about-page-paragraph">
         I am a front end web developer that is fresh out of a full stack web
         development bootcamp. I know how to use React, and I have learned about
         other technologies that make up its ecosystem, such as Redux, React
