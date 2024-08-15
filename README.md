@@ -13,11 +13,11 @@ The reason I built this project was to create a personal portfolio page, that us
 
 ## Installation
 
-No installation is required. Just visit the website by clicking the following link: https://esva-cv.netlify.app/resume
+No installation is required. Just visit the website by clicking the following link: https://esva-cv.netlify.app
 
 ## Usage
 
-Just go to the website and explore it. It is pretty easy to navigate. Click the following link to visit it: https://esva-cv.netlify.app/resume
+Just go to the website and explore it. It is pretty easy to navigate. Click the following link to visit it: https://esva-cv.netlify.app
 
 ## Credits
 
