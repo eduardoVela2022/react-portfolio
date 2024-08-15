@@ -122,18 +122,20 @@
 /* Input Field */
 .input-field {
   display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   align-items: center;
   font-size: 1.5rem;
   padding: 1rem;
 }
 
 .input-field label {
-  width: 15dvw;
+  width: 65dvw;
 }
 
 .input-field input {
   padding: 0.5rem;
-  width: 50dvw;
+  width: 65dvw;
   border: 3px var(--emerald-500) solid;
   border-radius: 10px;
   outline: none;
@@ -238,6 +240,14 @@
   .content-container {
     width: 85dvw;
   }
+
+  .input-field label {
+    width: 75dvw;
+  }
+
+  .input-field input {
+    width: 75dvw;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -249,5 +259,32 @@
   .navigation-container {
     font-size: 1rem;
     gap: 1rem;
+  }
+
+  .input-field {
+    font-size: 1.25rem;
+  }
+
+  .submit-button-container {
+    font-size: 1.25rem;
+  }
+
+  .submit-button-container-disabled {
+    font-size: 1.25rem;
+  }
+
+  /* Adds more width and reduces horizontal padding to fit content at smaller screen sizes */
+  .content-container {
+    padding: 2rem 1.75rem;
+    width: 100dvw;
+  }
+
+  /* Adds more width to fit content at smaller screen sizes */
+  .input-field label {
+    width: 85dvw;
+  }
+
+  .input-field input {
+    width: 85dvw;
   }
 }
