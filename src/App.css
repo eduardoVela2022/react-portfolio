@@ -69,6 +69,7 @@
 /* Scroll Container */
 .scroll-container {
   overflow-y: auto;
+  scrollbar-width: none;
 }
 
 /* About Page Profile Image */
@@ -216,8 +217,9 @@
 
 /* Project Image */
 .project-image {
-  max-width: 32rem;
+  max-width: 46rem;
   transition: opacity 0.5s ease;
+  border: 2px solid var(--website-text-color);
 }
 
 .project-image:hover {
@@ -248,6 +250,18 @@
   .input-field input {
     width: 75dvw;
   }
+
+  /* Decreases max width to fit content at smaller screen sizes */
+  .project-image {
+    max-width: 36rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* Decreases max width to fit content at smaller screen sizes */
+  .project-image {
+    max-width: 26rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -273,6 +287,10 @@
     font-size: 1.25rem;
   }
 
+  .project-container {
+    font-size: 1.25rem;
+  }
+
   /* Adds more width and reduces horizontal padding to fit content at smaller screen sizes */
   .content-container {
     padding: 2rem 1.75rem;
@@ -286,5 +304,10 @@
 
   .input-field input {
     width: 85dvw;
+  }
+
+  /* Decreases max width to fit content at smaller screen sizes */
+  .project-image {
+    max-width: 16rem;
   }
 }
