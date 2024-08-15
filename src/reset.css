@@ -8,6 +8,10 @@
   --emerald-500: #10b981;
   --emerald-400: #34d399;
   --emerald-300: #6ee7b7;
+  --red-500: #ef4444;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
 }
 
 /* Margin and padding is removed for all elements, and border box dox sizing is applied to them */
